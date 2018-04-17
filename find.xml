@@ -1,0 +1,41 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localWholeWordsOnly" value="true" />
+    <option name="LOCAL_WHOLE_WORDS_ONLY" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <recentFileMasks>
+      <mask>Todo*Impl.java</mask>
+      <mask>TodoImpl.java</mask>
+      <mask>Todompl.java</mask>
+      <mask>Todopl.java</mask>
+      <mask>Todol.java</mask>
+      <mask>Todo.java</mask>
+      <mask>Todo(java</mask>
+      <mask>Todojava</mask>
+      <mask>Todo*&gt;java</mask>
+      <mask>Todo*java</mask>
+      <mask>Todo*.java</mask>
+      <mask>*.xm</mask>
+      <mask>*.java\</mask>
+      <mask>*.java\\</mask>
+      <mask>*.java\\\\</mask>
+      <mask>*.java\\\</mask>
+      <mask>*.j</mask>
+      <mask>*.yaml</mask>
+      <mask>*.yam</mask>
+      <mask>*.ya</mask>
+      <mask>*.yml</mask>
+      <mask>*.ym</mask>
+      <mask>*.y</mask>
+      <mask>*</mask>
+      <mask>*.</mask>
+      <mask>*.jav</mask>
+      <mask>*.x</mask>
+      <mask>*.ja</mask>
+      <mask>*.java</mask>
+      <mask>*.xml</mask>
+    </recentFileMasks>
+  </component>
+</application>

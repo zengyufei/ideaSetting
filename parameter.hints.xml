@@ -1,0 +1,9 @@
+<application>
+  <component name="ParameterNameHintsSettings">
+    <blacklists>
+      <blacklist language="Java">
+        <added pattern="com.baomidou.mybatisplus.mapper.Wrapper.eq(column,params)" />
+      </blacklist>
+    </blacklists>
+  </component>
+</application>

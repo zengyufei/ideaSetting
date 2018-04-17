@@ -1,0 +1,8 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="GoogleTranslation">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="RefactoringMenuRenameFile">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+</keymap>

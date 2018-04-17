@@ -1,0 +1,49 @@
+<templateSet group="java">
+  <template name="log" value="private static final Logger log = LoggerFactory.getLogger($CLASS$.class);&#10;" description="生成 logger" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="error" value="log.error(&quot;$currentClass$.$methodName$ $MSG$失败。 参数：$params$。失败的原因是：{}&quot;, $message$);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="currentClass" expression="qualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="MSG" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="groovyScript(&quot;def result = '' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + ''; return result;&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="bean" value="&lt;bean id=&quot;$id$&quot; class=&quot;$REF$&quot; /&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="id" expression="decapitalize(groovyScript(&quot;_1.tokenize('.')[-1]&quot;, clipboard()))" defaultValue="" alwaysStopAt="true" />
+    <variable name="REF" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="infoStart" value="log.info(&quot;$currentClass$.$methodName$ 执行开始。 参数：$params$。&quot;);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="currentClass" expression="qualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="params" expression="groovyScript(&quot;def result = '' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + ''; return result;&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="infoEnd" value="log.info(&quot;$currentClass$.$methodName$ 执行完毕。 参数：$params$。&quot;);&#10;" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="currentClass" expression="qualifiedClassName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="methodName" expression="methodName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="params" expression="groovyScript(&quot;def result = '' + _1.collect { it + ' = [\&quot; + ' + it + ' + \&quot;]'}.join(', ') + ''; return result;&quot;, methodParameters())" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="qu" value="&quot;$SELECTION$&quot;" description="asd" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
