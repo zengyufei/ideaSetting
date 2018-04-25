@@ -154,7 +154,4 @@
     <variable name="VAR2" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
     <context />
   </template>
-  <template name="!!!" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;" description="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <context />
-  </template>
 </templateSet>
