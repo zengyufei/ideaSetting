@@ -18,6 +18,14 @@
           <option name="url" value="http://zengyufei@192.168.66.29:8082/EAF/itmc.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://gitlab.evergrande.com/EAF/eim.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://zengyufei@192.168.66.29:8082/EAF/eim.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\dowork\ideac\hd-test" />
