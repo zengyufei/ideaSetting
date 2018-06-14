@@ -32,7 +32,6 @@
       <mask>*.x</mask>
       <mask>*.ja</mask>
       <mask>*.java</mask>
-      <mask>*.xml</mask>
       <mask>*S</mask>
       <mask>*Ser</mask>
       <mask>*Serv</mask>
@@ -40,6 +39,7 @@
       <mask>*Service.</mask>
       <mask>*Service.ja</mask>
       <mask>*Service.java</mask>
+      <mask>*.xml</mask>
     </recentFileMasks>
   </component>
 </application>
